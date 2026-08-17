@@ -20,7 +20,7 @@ export default function Skills() {
         <SectionHeading
           eyebrow="Skills"
           title="Technologies I work with"
-          description="A snapshot of the languages, frameworks, and tools I use to design and ship backend systems."
+          description="A snapshot of the languages, frameworks, and tools I use to design and ship full-stack systems."
         />
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

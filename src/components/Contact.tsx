@@ -13,7 +13,7 @@ const contactItems = [
   { icon: Mail, label: "Email", value: profile.email, href: `mailto:${profile.email}` },
   { icon: Phone, label: "Phone", value: profile.phone, href: `tel:${profile.phone.replace(/\s+/g, "")}` },
   { icon: MapPin, label: "Location", value: profile.location },
-  { icon: LinkedinIcon, label: "LinkedIn", value: "shakiab-ur-rehman", href: profile.linkedin },
+  { icon: LinkedinIcon, label: "LinkedIn", value: "syed-muhammad-qasim-asif", href: profile.linkedin },
 ];
 
 export default function Contact() {

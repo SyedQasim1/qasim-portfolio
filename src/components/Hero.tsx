@@ -44,7 +44,7 @@ export default function Hero() {
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           <a
             href={profile.resumeFile}
-            download="Shakaib Ur Rehman (Software Engineer).pdf"
+            download="Syed Muhammad Qasim (Senior Full Stack Engineer).pdf"
             className="inline-flex items-center gap-2 rounded-full bg-[var(--color-accent)] px-6 py-3 text-sm font-semibold text-[var(--color-accent-fg)] shadow-lg shadow-[var(--color-accent)]/25 transition-all hover:scale-[1.03] hover:shadow-xl hover:shadow-[var(--color-accent)]/40"
           >
             <Download size={16} />

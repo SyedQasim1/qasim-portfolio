@@ -14,7 +14,7 @@ export default function Portfolio() {
         <SectionHeading
           eyebrow="Portfolio"
           title="Selected projects"
-          description="Backend systems and platforms I've designed, built, and shipped."
+          description="Full-stack platforms and products I've designed, built, and shipped."
         />
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

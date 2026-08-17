@@ -20,11 +20,11 @@ export default function About() {
             </p>
             <Card>
               <p className="text-sm font-semibold text-[var(--color-fg)]">
-                Currently: {profile.title} at Quhdock
+                Currently: {profile.title} at Uqoud
               </p>
               <p className="mt-2 text-sm text-[var(--color-fg-muted)]">
-                Always interested in interesting backend, API, and AI-integration
-                challenges — feel free to reach out below.
+                Always interested in interesting full-stack, API, and AI/eKYC
+                integration challenges — feel free to reach out below.
               </p>
             </Card>
           </div>

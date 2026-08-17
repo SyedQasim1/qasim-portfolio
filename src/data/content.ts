@@ -2,29 +2,29 @@
 // Edit the values here to update the site — no need to touch components.
 
 export const profile = {
-  name: "Shakaib Ur Rehman",
-  nameUrdu: "شکیب الرحمٰن",
-  title: "Senior Backend Developer",
-  location: "Lahore, Pakistan",
-  phone: "+92 323 7500667",
-  email: "shakiabchudry498@gmail.com",
-  linkedin: "http://linkedin.com/in/shakiab-ur-rehman-a7626a13b",
+  name: "Syed Muhammad Qasim",
+  nameUrdu: "سید محمد قاسم",
+  title: "Senior Full Stack Engineer",
+  location: "Dubai, UAE (Remote)",
+  phone: "+92 334 9817570",
+  email: "syedqasim.work@gmail.com",
+  linkedin: "https://www.linkedin.com/in/syed-muhammad-qasim-asif/",
   // Digits only, country code first, no leading 0 — required format for wa.me links.
-  whatsappNumber: "923237500667",
+  whatsappNumber: "923349817570",
   whatsappMessage:
-    "Hi Shakaib, I found your portfolio and I'd like to discuss a project with you.",
+    "Hi Qasim, I found your portfolio and I'd like to discuss a project with you.",
   resumeFile: "/resume.pdf",
   tagline:
-    "Building scalable, secure backend systems with 3+ years of experience across wellness, education, social, and e-commerce platforms.",
+    "Building scalable, cloud-ready web applications with 7+ years of experience across fintech, SaaS, e-commerce, and government sectors.",
   summary:
-    "Hi! I'm Shakaib, a Senior Backend Developer with 3+ years of experience in backend architecture, API development, and database management. I specialize in Node.js, Nest.js, and Express.js, with hands-on experience building scalable, secure systems and integrating AI-powered features. I've worked across wellness, education, social platforms, and e-commerce, taking projects from API design through production deployment.",
+    "Hi! I'm Qasim, a Senior Full Stack Engineer with 7+ years of experience building scalable, cloud-ready web applications across fintech, SaaS, e-commerce, and government sectors. I specialize in React.js, Next.js, Node.js, and NestJS, with hands-on experience in Python, cloud infrastructure, and modern DevOps practices. I've led cross-functional teams, designed microservices, and delivered high-quality products in Agile environments — from digital contract and eKYC platforms to banking apps and real-time dashboards.",
 };
 
 export const availability = {
   badge: "Open to Remote Opportunities",
-  title: "Remote Backend Developer",
+  title: "Remote Senior Full Stack Engineer",
   description:
-    "I work remotely and collaborate with teams worldwide. Currently available for remote opportunities and open to long-term, flexible, and project-based engagements.",
+    "I work remotely and collaborate with teams worldwide across fintech, SaaS, e-commerce, and government sectors. Currently available for remote opportunities and open to long-term, flexible, and project-based engagements.",
   options: [
     {
       title: "Full-Time",
@@ -42,35 +42,35 @@ export const availability = {
 };
 
 export const stats = [
-  { value: "3+", label: "Years Experience" },
-  { value: "6+", label: "Projects Delivered" },
-  { value: "15+", label: "Technologies" },
+  { value: "7+", label: "Years Experience" },
+  { value: "5+", label: "Projects Delivered" },
+  { value: "20+", label: "Technologies" },
 ];
 
 export const aboutSkillGroups = [
   {
+    title: "Frontend",
+    items: ["React.js", "Next.js", "TypeScript", "JavaScript (ES6+)", "Redux", "Tailwind CSS"],
+  },
+  {
     title: "Backend",
-    items: ["Node.js", "Express.js", "Nest.js", "JavaScript", "TypeScript", "Python"],
+    items: ["Node.js", "NestJS", "Express.js", "Python", "GraphQL", "Microservices"],
   },
   {
     title: "Databases",
-    items: ["PostgreSQL", "MySQL", "MongoDB", "Vector Database"],
+    items: ["PostgreSQL", "MySQL", "MongoDB", "DynamoDB", "Redis"],
   },
   {
     title: "Cloud & DevOps",
-    items: ["AWS SES", "AWS S3", "PM2", "Twilio"],
-  },
-  {
-    title: "Integrations & Tools",
-    items: ["Thawani", "MyFatoorah", "OpenAI API", "Real-Time Communication"],
+    items: ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "CI/CD"],
   },
 ];
 
 export const education = [
   {
-    degree: "Bachelor of Science in Software Engineering",
-    school: "Garrison University, Lahore, Pakistan",
-    period: "2022",
+    degree: "BSIT — Bachelor of Science in Information Technology",
+    school: "Punjab University, Lahore, Pakistan",
+    period: "2017",
   },
 ];
 
@@ -85,18 +85,57 @@ export const aiTools = [
 
 export const experience = [
   {
-    company: "Quhdock",
-    role: "Senior Backend Developer",
-    location: "Lahore, Pakistan",
-    period: "2023 — Present",
+    company: "Uqoud",
+    role: "Senior Team Lead",
+    location: "Dubai (Remote)",
+    period: "2022 — Present",
     type: "Full-time",
     points: [
-      "Developed and maintained large-scale backend applications using Node.js and Nest.js.",
-      "Designed RESTful APIs for real-time and cloud-integrated applications.",
-      "Implemented AI solutions and integrated AI models into services.",
-      "Built reusable backend modules and optimized API performance.",
-      "Collaborated with cross-functional teams including QA, design, and product management.",
-      "Integrated 3rd-party services such as Thawani Communication Services.",
+      "Architected full-stack solutions for a digital contract, e-signature, and eKYC platform using React.js, Next.js, Node.js, NestJS, and GCP.",
+      "Integrated AI-based OCR/MRZ, facial recognition, and identity verification services.",
+      "Designed microservices for document workflows, contract states, payments, and user management.",
+      "Implemented CI/CD pipelines with GitHub Actions and Docker-based deployments.",
+      "Led frontend, backend, and mobile teams ensuring cross-functional alignment and timely delivery.",
+      "Optimized accessibility, SEO, and system performance across the platform.",
+    ],
+  },
+  {
+    company: "Aion Digital",
+    role: "Senior Software Engineer",
+    location: "Remote",
+    period: "2019 — 2022",
+    type: "Full-time",
+    points: [
+      "Built banking app modules including onboarding, card issuance, financing, and reporting using React.js and Node.js.",
+      "Developed backend microservices in Node.js, NestJS, and Python deployed on Azure.",
+      "Integrated national ID verification, payment systems, and communication services.",
+      "Used PostgreSQL, MySQL, and Knex for enterprise-grade data operations.",
+      "Collaborated with product, QA, and DevOps teams in Scrum-based workflows.",
+    ],
+  },
+  {
+    company: "Virtual Force",
+    role: "Senior Software Engineer",
+    location: "Remote",
+    period: "2017 — 2019",
+    type: "Full-time",
+    points: [
+      "Delivered API-driven solutions for healthcare and SaaS platforms.",
+      "Developed dashboards, admin panels, and reusable UI components.",
+      "Mentored junior developers and improved CI/CD reliability.",
+      "Focused on performance tuning, caching, and API optimization.",
+    ],
+  },
+  {
+    company: "Tkxel",
+    role: "Software Engineer",
+    location: "Lahore, Pakistan",
+    period: "2017",
+    type: "Full-time",
+    points: [
+      "Built full-stack features for EvaluSkills using React.js, Node.js, and PostgreSQL.",
+      "Implemented RBAC, form flows, visual analytics, and automated deployments.",
+      "Wrote unit tests (Jest, Mocha) and supported production releases.",
     ],
   },
 ];
@@ -113,100 +152,80 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    name: "MyScienceLand",
-    role: "Team Lead Backend Developer",
-    location: "United Kingdom",
+    name: "Uqoud",
+    role: "Senior Team Lead",
+    location: "Dubai, UAE",
     description:
-      "An education platform with student dashboards and AI-powered assessment tools.",
-    tech: ["Next.js", "NestJS", "AWS", "MongoDB", "GPT-4"],
+      "A digital contract, e-signature, and eKYC platform with role-based, real-time access control.",
+    tech: ["React.js", "Next.js", "Node.js", "NestJS", "Python", "GCP"],
     features: [
-      "Built dashboards and student tools using Next.js",
-      "Performance-optimized UI rendering",
-      "AI-powered assessment features for automatic quiz generation",
-      "Led backend development, API design, and team coordination",
+      "Developed scalable contract workflow systems with role-based, real-time access control",
+      "Integrated OCR and eKYC solutions for identity verification",
+      "Designed scalable, serverless APIs for high availability",
+    ],
+    url: "https://platform.uqoud.com",
+  },
+  {
+    name: "Cbuy",
+    role: "Full Stack Engineer",
+    description:
+      "A business marketplace platform for buying and selling businesses with advanced search and matching.",
+    tech: ["Next.js", "NestJS", "PostgreSQL", "PayPal"],
+    features: [
+      "Developed a platform for buying and selling businesses with advanced search and matching features",
+      "Implemented structured company listings including turnover, location, and ownership details",
+      "Integrated secure payment processing using PayPal for service charges",
+      "Built a real-time messaging system connecting buyers, sellers, and industry experts",
     ],
   },
   {
-    name: "Socalii",
-    role: "Senior Backend Developer",
-    location: "Oman",
+    name: "InsuranceMarket.ae",
+    role: "Full Stack Engineer",
     description:
-      "A social & business platform combining networking, commerce, and content tools.",
-    tech: ["React", "Tailwind CSS", "Node.js", "Express.js", "MongoDB"],
+      "Migrated core insurance platform modules from a monolithic architecture to microservices.",
+    tech: ["Node.js", "Python", "NestJS", "PostgreSQL", "Redis", "Docker", "AWS"],
     features: [
-      "Role-based login supporting business and individual accounts",
-      "Digital business card generation for individual users",
-      "Store management with product categorization and sales tracking",
-      "CV builder and social media content posting",
-      "Barcode and QR scanner integration",
+      "Migrated core modules from a monolithic architecture to microservices",
+      "Implemented Redis caching to optimise high-traffic APIs",
+      "Automated CI/CD pipelines and improved infrastructure monitoring",
     ],
   },
   {
-    name: "LovetoAir",
-    role: "Backend Developer",
-    location: "USA",
+    name: "Cryptoslam",
+    role: "Full Stack Engineer",
     description:
-      "A review platform for user-generated seller feedback and moderation.",
-    tech: ["Node.js", "NestJS", "PostgreSQL", "AWS"],
+      "High-performance, real-time dashboards for large crypto datasets.",
+    tech: ["React.js", "Next.js", "Node.js", "NestJS", "PostgreSQL", "Tailwind CSS"],
     features: [
-      "Platform for user-generated seller reviews with feedback management",
-      "APIs for review submission, moderation, and analytics",
-      "Secure user authentication and data management",
+      "Built high-performance, real-time dashboards for large datasets",
+      "Reduced API response and frontend rendering time by 30%",
     ],
+    url: "https://cryptoslam.io",
   },
   {
-    name: "Aviaero",
-    role: "Backend Developer",
-    location: "Germany",
+    name: "Eatzy",
+    role: "Full Stack Engineer",
     description:
-      "A student learning platform with structured study plans and an AI tutor chatbot.",
-    tech: ["NestJS", "PostgreSQL", "OpenAI API", "JWT", "AWS", "Git"],
+      "A multi-platform food delivery system for restaurants, customers, and riders.",
+    tech: ["React.js", "Redux", "Redux-Saga"],
     features: [
-      "AI chatbot for study support, explanations, and doubt solving",
-      "Subject-wise structured study plans for guided learning",
-      "Personalized learning experience to improve student performance",
-    ],
-  },
-  {
-    name: "SysPOS",
-    role: "Backend Developer",
-    location: "UAE",
-    description:
-      "A point-of-sale system for transactions, inventory, and staff performance tracking.",
-    tech: ["Express.js", "MySQL", "AWS"],
-    features: [
-      "POS system for transactions, inventory management, and sales reports",
-      "Reorder alerts and commission tracking",
-      "Optimized backend performance for high-volume transactions",
-    ],
-  },
-  {
-    name: "LimoGuard",
-    role: "Backend Developer",
-    location: "Invenza, Qatar",
-    description:
-      "A multi-tenant fleet management SaaS backend for limousine companies across Qatar.",
-    tech: ["NestJS", "MongoDB", "Redis", "Twilio", "MyFatoorah"],
-    features: [
-      "Risk auto-escalation engine with atomic MongoDB operations for payment risk states",
-      "Per-company configurable cron jobs for auto-debit and reminders via @nestjs/schedule and Redis distributed locks",
-      "MyFatoorah payment gateway integration for tokenized charging and paylinks",
-      "WhatsApp + SMS notifications via Twilio for payment alerts",
-      "Deployed to production with PM2 across staging and production",
+      "Implemented restaurant management features including menu and order handling",
+      "Built customer-facing ordering and real-time tracking functionality",
+      "Designed scalable backend services to handle high traffic",
     ],
   },
 ];
 
 export const services = [
   {
-    title: "Backend API Development",
+    title: "Full-Stack Web Application Development",
     description:
-      "Designing and building RESTful APIs with Node.js, Express.js, and Nest.js for real-time and cloud-integrated applications.",
+      "Designing and building end-to-end web applications with React.js, Next.js, Node.js, and NestJS.",
     points: [
-      "RESTful & modular API design",
-      "Authentication & authorization (JWT)",
-      "Real-time communication",
-      "Performance optimization",
+      "React.js & Next.js frontend engineering",
+      "RESTful & GraphQL API design",
+      "Microservices architecture",
+      "Performance & accessibility optimization",
     ],
   },
   {
@@ -215,31 +234,31 @@ export const services = [
       "Modeling and managing relational and NoSQL databases for scalable, reliable systems.",
     points: [
       "PostgreSQL & MySQL schema design",
-      "MongoDB & vector database modeling",
-      "Query optimization",
-      "Data integrity & migrations",
+      "MongoDB & DynamoDB modeling",
+      "Redis caching strategies",
+      "Query optimization & data migrations",
     ],
   },
   {
-    title: "Cloud & Third-Party Integrations",
+    title: "Cloud, DevOps & Microservices",
     description:
-      "Connecting applications to cloud infrastructure and third-party services for payments, messaging, and storage.",
+      "Architecting cloud-ready infrastructure and CI/CD pipelines across AWS, GCP, and Azure.",
     points: [
-      "AWS (SES, S3), PM2 deployment",
-      "Payment gateways (MyFatoorah, Thawani)",
-      "Twilio SMS & WhatsApp notifications",
-      "Cron-based scheduled jobs",
+      "AWS, GCP & Azure infrastructure",
+      "Docker & Kubernetes deployments",
+      "CI/CD pipelines (GitHub Actions, GitLab CI)",
+      "Monitoring, logging & infrastructure automation",
     ],
   },
   {
-    title: "AI-Powered Feature Integration",
+    title: "AI/OCR & Identity Verification Integrations",
     description:
-      "Embedding AI models into backend services to power chatbots, assessments, and automation.",
+      "Embedding AI-powered OCR, eKYC, and identity verification services into production platforms.",
     points: [
-      "OpenAI / GPT-4 API integration",
-      "AI chatbot & virtual tutor backends",
-      "Automated content generation",
-      "AI-assisted development workflow",
+      "AI-based OCR/MRZ & facial recognition",
+      "eKYC & identity verification workflows",
+      "Payment gateway integrations (Payfort, PayPal)",
+      "Realtime dashboards & notifications",
     ],
   },
 ];
