@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Qualifications from "@/components/Qualifications";
 import Experience from "@/components/Experience";
+import AIHighlights from "@/components/AIHighlights";
 import Skills from "@/components/Skills";
 import Services from "@/components/Services";
 import Portfolio from "@/components/Portfolio";
@@ -19,6 +20,7 @@ export default function Home() {
         <About />
         <Qualifications />
         <Experience />
+        <AIHighlights />
         <Skills />
         <Services />
         <Portfolio />

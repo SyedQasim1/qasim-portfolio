@@ -5,7 +5,7 @@ export const profile = {
   name: "Syed Muhammad Qasim",
   nameUrdu: "سید محمد قاسم",
   title: "Senior Full Stack Engineer",
-  location: "Dubai, UAE (Remote)",
+  location: "Dubai, UAE & Lahore, Pakistan",
   phone: "+92 334 9817570",
   email: "syedqasim.work@gmail.com",
   linkedin: "https://www.linkedin.com/in/syed-muhammad-qasim-asif/",
@@ -15,9 +15,9 @@ export const profile = {
     "Hi Qasim, I found your portfolio and I'd like to discuss a project with you.",
   resumeFile: "/resume.pdf",
   tagline:
-    "Building scalable, cloud-ready web applications with 7+ years of experience across fintech, SaaS, e-commerce, and government sectors.",
+    "Building scalable, cloud-ready web applications with 9+ years of experience across fintech, SaaS, e-commerce, and government sectors.",
   summary:
-    "Hi! I'm Qasim, a Senior Full Stack Engineer with 7+ years of experience building scalable, cloud-ready web applications across fintech, SaaS, e-commerce, and government sectors. I specialize in React.js, Next.js, Node.js, and NestJS, with hands-on experience in Python, cloud infrastructure, and modern DevOps practices. I've led cross-functional teams, designed microservices, and delivered high-quality products in Agile environments — from digital contract and eKYC platforms to banking apps and real-time dashboards.",
+    "Hi! I'm Qasim, a Senior Full Stack Engineer with 9+ years of experience building scalable, cloud-ready web applications across fintech, SaaS, e-commerce, and government sectors. I specialize in React.js, Next.js, Node.js, and NestJS, with hands-on experience in Python, cloud infrastructure, and modern DevOps practices. I've led cross-functional teams, designed microservices, and delivered high-quality products in Agile environments — from digital contract and eKYC platforms to banking apps and real-time dashboards.",
 };
 
 export const availability = {
@@ -42,9 +42,9 @@ export const availability = {
 };
 
 export const stats = [
-  { value: "7+", label: "Years Experience" },
-  { value: "5+", label: "Projects Delivered" },
-  { value: "20+", label: "Technologies" },
+  { value: "9+", label: "Years Experience" },
+  { value: "20+", label: "Projects Delivered" },
+  { value: "25+", label: "Technologies" },
 ];
 
 export const aboutSkillGroups = [
@@ -216,6 +216,71 @@ export const projects: Project[] = [
   },
 ];
 
+export type AIHighlight = {
+  company: string;
+  project: string;
+  description: string;
+  tech: string[];
+  points: string[];
+};
+
+export const aiSection = {
+  eyebrow: "AI Integrations",
+  title: "AI & Identity Verification",
+  description:
+    "AI-powered OCR, facial recognition, and eKYC systems I've built and integrated into production platforms.",
+};
+
+export const aiHighlights: AIHighlight[] = [
+  {
+    company: "Uqoud",
+    project: "Digital Contract & eKYC Platform",
+    description:
+      "AI-powered identity verification embedded into the contract and e-signature workflow.",
+    tech: ["OCR/MRZ", "Facial Recognition", "eKYC", "GCP"],
+    points: [
+      "Integrated AI-based OCR/MRZ scanning for automated document data extraction",
+      "Implemented facial recognition for identity matching during onboarding and contract signing",
+      "Built eKYC verification workflows as part of the contract state machine",
+    ],
+  },
+  {
+    company: "Aion Digital",
+    project: "Banking Onboarding & Card Issuance",
+    description:
+      "National ID verification integrated into digital banking onboarding.",
+    tech: ["National ID Verification", "Node.js", "Azure"],
+    points: [
+      "Integrated national ID verification into the customer onboarding flow",
+      "Automated identity checks ahead of card issuance and financing approval",
+    ],
+  },
+  {
+    company: "MyScienceLand",
+    project: "AI-Powered E-Learning Platform",
+    description:
+      "LLM-driven features embedded into a science education platform for students.",
+    tech: ["LLM Integration", "Node.js", "NestJS", "MongoDB", "AWS"],
+    points: [
+      "Built an AI-powered chatbot/assistant for student Q&A and engagement",
+      "Used LLMs to generate educational science content, quizzes, and summaries",
+      "Implemented AI-driven personalized content and learning-path recommendations",
+      "Automated data extraction and processing workflows using LLMs",
+    ],
+  },
+  {
+    company: "Averio",
+    project: "Business SaaS Platform",
+    description:
+      "AI-powered chatbot/assistant integrated into a business SaaS platform.",
+    tech: ["LLM Integration", "Node.js", "Express.js", "PostgreSQL", "AWS"],
+    points: [
+      "Built an AI-powered chatbot/assistant to support user interactions",
+      "Integrated LLM-based conversational features into the platform backend",
+    ],
+  },
+];
+
 export const services = [
   {
     title: "Full-Stack Web Application Development",
@@ -268,6 +333,7 @@ export const navLinks = [
   { label: "About", href: "#about" },
   { label: "Qualification", href: "#qualification" },
   { label: "Experience", href: "#experience" },
+  { label: "AI", href: "#ai" },
   { label: "Services", href: "#services" },
   { label: "Portfolio", href: "#portfolio" },
   { label: "Contact", href: "#contact" },
