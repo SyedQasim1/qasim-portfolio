@@ -1,4 +1,4 @@
-import { aboutSkillGroups, profile } from "@/data/content";
+import { aboutSkillGroups, experience, profile } from "@/data/content";
 import SectionHeading from "./SectionHeading";
 import Card from "./Card";
 import Availability from "./Availability";
@@ -20,7 +20,7 @@ export default function About() {
             </p>
             <Card>
               <p className="text-sm font-semibold text-[var(--color-fg)]">
-                Currently: {profile.title} at Uqoud
+                Currently: {experience[0].role} at {experience[0].company}
               </p>
               <p className="mt-2 text-sm text-[var(--color-fg-muted)]">
                 Always interested in interesting full-stack, API, and AI/eKYC

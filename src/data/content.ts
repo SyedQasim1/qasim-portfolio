@@ -7,7 +7,7 @@ export const profile = {
   title: "Senior Full Stack Engineer",
   location: "Dubai, UAE & Lahore, Pakistan",
   phone: "+92 334 9817570",
-  email: "syedqasim.work@gmail.com",
+  email: "syedqasimasif@gmail.com",
   linkedin: "https://www.linkedin.com/in/syed-muhammad-qasim-asif/",
   // Digits only, country code first, no leading 0 — required format for wa.me links.
   whatsappNumber: "923349817570",
@@ -15,9 +15,9 @@ export const profile = {
     "Hi Qasim, I found your portfolio and I'd like to discuss a project with you.",
   resumeFile: "/resume.pdf",
   tagline:
-    "Building scalable, cloud-ready web applications with 9+ years of experience across fintech, SaaS, e-commerce, and government sectors.",
+    "Building scalable backend services, event-driven pipelines, and production AI/ML systems with 8+ years of experience in Python, Node.js, and TypeScript.",
   summary:
-    "Hi! I'm Qasim, a Senior Full Stack Engineer with 9+ years of experience building scalable, cloud-ready web applications across fintech, SaaS, e-commerce, and government sectors. I specialize in React.js, Next.js, Node.js, and NestJS, with hands-on experience in Python, cloud infrastructure, and modern DevOps practices. I've led cross-functional teams, designed microservices, and delivered high-quality products in Agile environments — from digital contract and eKYC platforms to banking apps and real-time dashboards.",
+    "Hi! I'm Qasim, a Senior Software Engineer with 8+ years of experience across backend and full-stack development, with strong hands-on expertise in Python, Node.js, and TypeScript. I build scalable backend services, event-driven pipelines, and RESTful APIs, along with React and Next.js frontends. I work closely with data scientists and ML engineers to productionise machine learning models and GenAI experimentation into reliable, production-grade systems, using Kafka, Redis, and relational databases for high-throughput architectures, with Docker, Kubernetes, and CI/CD across AWS, GCP, and Azure. I contribute actively to architecture and technical decisions with a strong product mindset, and mentor engineers while raising engineering standards across teams.",
 };
 
 export const availability = {
@@ -42,7 +42,7 @@ export const availability = {
 };
 
 export const stats = [
-  { value: "9+", label: "Years Experience" },
+  { value: "8+", label: "Years Experience" },
   { value: "20+", label: "Projects Delivered" },
   { value: "25+", label: "Technologies" },
 ];
@@ -68,7 +68,7 @@ export const aboutSkillGroups = [
 
 export const education = [
   {
-    degree: "BSIT — Bachelor of Science in Information Technology",
+    degree: "BSCS — Bachelor of Science in Computer Science",
     school: "Punjab University, Lahore, Pakistan",
     period: "2017",
   },
@@ -85,57 +85,65 @@ export const aiTools = [
 
 export const experience = [
   {
-    company: "Uqoud",
-    role: "Senior Team Lead",
-    location: "Dubai (Remote)",
-    period: "2022 — Present",
+    company: "MyAlfred L.L.C",
+    role: "Senior Software Engineer",
+    location: "United Arab Emirates (Remote)",
+    period: "Feb 2025 — Present",
     type: "Full-time",
     points: [
-      "Architected full-stack solutions for a digital contract, e-signature, and eKYC platform using React.js, Next.js, Node.js, NestJS, and GCP.",
-      "Integrated AI-based OCR/MRZ, facial recognition, and identity verification services.",
-      "Designed microservices for document workflows, contract states, payments, and user management.",
-      "Implemented CI/CD pipelines with GitHub Actions and Docker-based deployments.",
-      "Led frontend, backend, and mobile teams ensuring cross-functional alignment and timely delivery.",
-      "Optimized accessibility, SEO, and system performance across the platform.",
+      "Build and scale production-grade Python and Node.js backend services, APIs, and event-driven pipelines for enterprise fintech and insurance platforms.",
+      "Work alongside data and AI teams to productionise machine learning models and AI experimentation, powering personalisation and fraud-detection-style features.",
+      "Use Kafka and Redis for high-throughput, event-driven communication between services, backed by PostgreSQL for core data.",
+      "Deploy and orchestrate services with Docker and Kubernetes, and maintain CI/CD pipelines for reliable releases.",
+      "Contribute to architecture and technical decisions, and mentor engineers to raise engineering standards across the team.",
     ],
   },
   {
-    company: "Aion Digital",
-    role: "Senior Software Engineer",
-    location: "Remote",
-    period: "2019 — 2022",
+    company: "Uqoud",
+    role: "Fullstack Lead Engineer",
+    location: "United Arab Emirates",
+    period: "Sep 2022 — Jan 2025",
     type: "Full-time",
     points: [
-      "Built banking app modules including onboarding, card issuance, financing, and reporting using React.js and Node.js.",
-      "Developed backend microservices in Node.js, NestJS, and Python deployed on Azure.",
-      "Integrated national ID verification, payment systems, and communication services.",
-      "Used PostgreSQL, MySQL, and Knex for enterprise-grade data operations.",
-      "Collaborated with product, QA, and DevOps teams in Scrum-based workflows.",
+      "Led backend architecture for a high-traffic, multi-team platform, building Python and Node.js services and event-driven pipelines using Kafka.",
+      "Partnered with data teams to bring AI/ML-powered identity verification and document classification models into production, including OCR, MRZ scanning, and facial recognition.",
+      "Designed and maintained RESTful APIs backed by PostgreSQL and Redis, containerized with Docker and Kubernetes.",
+      "Shaped technical direction and architecture decisions with a product-centric mindset, ensuring solutions impacted customer outcomes.",
+      "Mentored engineers, led code reviews, and drove CI/CD and engineering best practices across disciplines.",
     ],
   },
   {
     company: "Virtual Force",
     role: "Senior Software Engineer",
-    location: "Remote",
-    period: "2017 — 2019",
+    location: "Lahore, Pakistan",
+    period: "Dec 2019 — Aug 2022",
     type: "Full-time",
     points: [
-      "Delivered API-driven solutions for healthcare and SaaS platforms.",
-      "Developed dashboards, admin panels, and reusable UI components.",
-      "Mentored junior developers and improved CI/CD reliability.",
-      "Focused on performance tuning, caching, and API optimization.",
+      "Delivered backend solutions in Node.js and Python for healthcare and SaaS platforms, focusing on scalable, reliable system design.",
+      "Mentored junior developers and actively participated in architecture planning and technical decision-making.",
+      "Improved CI/CD reliability and deployment processes, and implemented caching strategies and API optimizations.",
     ],
   },
   {
     company: "Tkxel",
     role: "Software Engineer",
     location: "Lahore, Pakistan",
-    period: "2017",
+    period: "Mar 2019 — Nov 2019",
     type: "Full-time",
     points: [
-      "Built full-stack features for EvaluSkills using React.js, Node.js, and PostgreSQL.",
-      "Implemented RBAC, form flows, visual analytics, and automated deployments.",
-      "Wrote unit tests (Jest, Mocha) and supported production releases.",
+      "Built full-stack features for EvaluSkills using React.js, Node.js, and PostgreSQL, including RBAC and complex workflow management.",
+      "Wrote unit and integration tests using Jest and Mocha as part of an automated testing strategy.",
+    ],
+  },
+  {
+    company: "Engin Technologies",
+    role: "Software Engineer",
+    location: "Lahore, Pakistan",
+    period: "Jul 2017 — Mar 2019",
+    type: "Full-time",
+    points: [
+      "Developed backend services for messaging, file sharing, and document management systems using Express.js, LoopBack, AWS, and DynamoDB.",
+      "Designed and maintained RESTful APIs for enterprise applications, contributing to system architecture and database optimization.",
     ],
   },
 ];
@@ -153,7 +161,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     name: "Uqoud",
-    role: "Senior Team Lead",
+    role: "Fullstack Lead Engineer",
     location: "Dubai, UAE",
     description:
       "A digital contract, e-signature, and eKYC platform with role-based, real-time access control.",
@@ -182,12 +190,24 @@ export const projects: Project[] = [
     name: "InsuranceMarket.ae",
     role: "Full Stack Engineer",
     description:
-      "Migrated core insurance platform modules from a monolithic architecture to microservices.",
-    tech: ["Node.js", "Python", "NestJS", "PostgreSQL", "Redis", "Docker", "AWS"],
+      "Migrated core insurance platform modules to event-driven microservices and added a Voice AI Agent.",
+    tech: ["Node.js", "Python", "AI/ML", "Voice AI Agent", "PostgreSQL", "Redis", "Docker", "AWS"],
     features: [
-      "Migrated core modules from a monolithic architecture to microservices",
+      "Migrated modules from a monolithic architecture to event-driven microservices, improving scalability and reliability",
+      "Built and integrated a Voice AI Agent using Python and AI/ML, adding automated conversational capabilities to the platform",
       "Implemented Redis caching to optimise high-traffic APIs",
-      "Automated CI/CD pipelines and improved infrastructure monitoring",
+    ],
+  },
+  {
+    name: "Aviaero",
+    role: "Full Stack Engineer",
+    description:
+      "An AI student learning platform with an AI chatbot tutor that delivers personalised study plans.",
+    tech: ["Python", "React.js", "Next.js", "NestJS", "PostgreSQL", "OpenAI API"],
+    features: [
+      "Built a React/Next.js frontend and NestJS backend for the learning platform",
+      "Integrated an AI chatbot tutor powered by the OpenAI API",
+      "Delivered personalised study plans for students",
     ],
   },
   {
@@ -234,25 +254,25 @@ export const aiSection = {
 export const aiHighlights: AIHighlight[] = [
   {
     company: "Uqoud",
-    project: "Digital Contract & eKYC Platform",
+    project: "eKYC & Compliance Platform",
     description:
-      "AI-powered identity verification embedded into the contract and e-signature workflow.",
-    tech: ["OCR/MRZ", "Facial Recognition", "eKYC", "GCP"],
+      "AI/ML-powered document classification and identity verification productionised into a high-traffic compliance platform.",
+    tech: ["OCR/MRZ", "Facial Recognition", "Document Classification", "Python", "Kafka"],
     points: [
-      "Integrated AI-based OCR/MRZ scanning for automated document data extraction",
+      "Productionised AI/ML-powered document classification and identity verification models",
+      "Integrated OCR/MRZ scanning for automated document data extraction",
       "Implemented facial recognition for identity matching during onboarding and contract signing",
-      "Built eKYC verification workflows as part of the contract state machine",
     ],
   },
   {
-    company: "Aion Digital",
-    project: "Banking Onboarding & Card Issuance",
+    company: "InsuranceMarket.ae",
+    project: "Voice AI Agent",
     description:
-      "National ID verification integrated into digital banking onboarding.",
-    tech: ["National ID Verification", "Node.js", "Azure"],
+      "A Voice AI Agent adding automated conversational capabilities to an insurance platform.",
+    tech: ["Voice AI", "Python", "AI/ML", "Node.js"],
     points: [
-      "Integrated national ID verification into the customer onboarding flow",
-      "Automated identity checks ahead of card issuance and financing approval",
+      "Built and integrated a Voice AI Agent using Python and AI/ML",
+      "Added automated conversational capabilities to the platform",
     ],
   },
   {
