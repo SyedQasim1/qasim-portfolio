@@ -1,5 +1,6 @@
 import { Download, Mail } from "lucide-react";
 import { profile, stats } from "@/data/content";
+import ToptalBadge from "./ToptalBadge";
 
 export default function Hero() {
   return (
@@ -57,6 +58,10 @@ export default function Hero() {
             <Mail size={16} />
             Get in Touch
           </a>
+        </div>
+
+        <div className="mt-12">
+          <ToptalBadge />
         </div>
 
         <div className="mt-16 grid w-full max-w-lg grid-cols-3 gap-6 border-t border-[var(--color-border)] pt-10">
